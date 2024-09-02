@@ -53,7 +53,7 @@ body{
 }
 .welcomPage p{
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     width: 40%;
 }
 .imgs{
@@ -61,8 +61,8 @@ body{
     justify-content: space-evenly;
 }
 .imgs img{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 }
 .disc{
     justify-content: space-evenly;
@@ -81,29 +81,35 @@ body{
     margin-top: 20px;
 }
 .imgs2 img{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 }
 
 .imgs3 img{
     width: 400px;
-    height: 200px;
+    height: 300px;
 }
 .imgs3{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     justify-items: center;
     margin-top: 20px;
+    transform: translateX(-95px);
+}
+.img33{
+    position: relative;
+    right: 240px;
 }
 .disc3{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
     color: white;
     font-size: 20px;
     justify-items: center;
     margin-top: 10px;
 }
+
 
 .imgs :hover{
     position: relative;
@@ -153,7 +159,7 @@ body{
     width: 80%;
 }
 .prgraph h1{
-    width: 50%;
+    width: 55%;
 }
 .prgraph a{
     margin-top: 10px;
@@ -163,6 +169,9 @@ body{
     text-decoration: none;
     color: white;
     text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .imgDon{
     background-color: white;
