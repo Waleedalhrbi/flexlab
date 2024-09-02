@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #0e0e0e;
+}
+.navContiner{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+.listItem{
+    display: flex;
+    justify-content: space-evenly;
+    width: 48vw;
+    align-items: center;
+    height: 9vh;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+}
+.list li{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+.logoContiner{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: 9vh;
+    align-items: center;
+}
+
+.welcomPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+    color: white;
+    text-align: center;
+}
+.welcomPage h1{
+    font-size: 45px;
+    
+}
+.welcomPage p{
+    font-size: 20px;
+    text-align: justify;
+    width: 40%;
+}
+.imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgs img{
+    width: 200px;
+    height: 200px;
+}
+.disc{
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.imgs2{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-top: 20px;
+}
+.imgs2 img{
+    width: 200px;
+    height: 200px;
+}
+
+.imgs3 img{
+    width: 400px;
+    height: 200px;
+}
+.imgs3{
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;
+    margin-top: 20px;
+}
+.disc3{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.imgs :hover{
+    position: relative;
+    bottom:12px ;
+}
+.imgs2 :hover{
+    position: relative;
+    bottom:12px ;
+}
+.imgs3 :hover{
+    position: relative;
+    bottom:12px ;
+}
+
+.secondPage{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.imgs1 img{
+    width: 30vw;
+}
+.imgs1{
+    height: 70vh; 
+    transform: translateX(150px);
+}
+.imgsp img{
+    width: 30vw;
+}
+.imgsp{
+    
+    transform: translateX(-25px);
+}
+.imgesPage2 {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;   
+}
+.prgraph{
+    display: flex;
+    flex-direction: column;
+}
+.prgraph p{
+    width: 80%;
+}
+.prgraph h1{
+    width: 50%;
+}
+.prgraph a{
+    margin-top: 10px;
+    background-color: #0e0e0e;
+    width: 8vw;
+    height: 5vh;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.imgDon{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.imgDon p{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
